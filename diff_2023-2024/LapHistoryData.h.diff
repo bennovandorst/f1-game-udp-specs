@@ -1,5 +1,5 @@
 diff --git a/2023/LapHistoryData.h b/2024/LapHistoryData.h
-index 5638793..6e45fda 100755
+index 812833c..6e45fda 100755
 --- a/2023/LapHistoryData.h
 +++ b/2024/LapHistoryData.h
 @@ -1,12 +1,12 @@
@@ -9,7 +9,7 @@ index 5638793..6e45fda 100755
 -    uint16    m_sector1TimeInMS;       // Sector 1 time in milliseconds
 -    uint8     m_sector1TimeMinutes;    // Sector 1 whole minute part
 -    uint16    m_sector2TimeInMS;       // Sector 2 time in milliseconds
--    uint8     m_sector1TimeMinutes;    // Sector 2 whole minute part
+-    uint8     m_sector2TimeMinutes;    // Sector 2 whole minute part
 -    uint16    m_sector3TimeInMS;       // Sector 3 time in milliseconds
 -    uint8     m_sector3TimeMinutes;    // Sector 3 whole minute part
 +    uint16    m_sector1TimeMSPart;        // Sector 1 milliseconds part
