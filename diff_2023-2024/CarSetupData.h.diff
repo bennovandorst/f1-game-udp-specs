@@ -1,0 +1,12 @@
+diff --git a/2023/CarSetupData.h b/2024/CarSetupData.h
+index 5c15867..d7c4c59 100755
+--- a/2023/CarSetupData.h
++++ b/2024/CarSetupData.h
+@@ -16,6 +16,7 @@ struct CarSetupData
+     uint8     m_rearSuspensionHeight;     // Rear ride height
+     uint8     m_brakePressure;            // Brake pressure (percentage)
+     uint8     m_brakeBias;                // Brake bias (percentage)
++    uint8     m_engineBraking;            // Engine braking (percentage)
+     float     m_rearLeftTyrePressure;     // Rear left tyre pressure (PSI)
+     float     m_rearRightTyrePressure;    // Rear right tyre pressure (PSI)
+     float     m_frontLeftTyrePressure;    // Front left tyre pressure (PSI)

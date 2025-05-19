@@ -1,0 +1,13 @@
+diff --git a/2023/LobbyInfoData.h b/2024/LobbyInfoData.h
+index 4497c96..ebbfa7e 100755
+--- a/2023/LobbyInfoData.h
++++ b/2024/LobbyInfoData.h
+@@ -7,5 +7,8 @@ struct LobbyInfoData
+     char      m_name[48];	  // Name of participant in UTF-8 format – null terminated
+                                    // Will be truncated with ... (U+2026) if too long
+     uint8     m_carNumber;         // Car number of the player
++    uint8     m_yourTelemetry;     // The player's UDP setting, 0 = restricted, 1 = public
++    uint8     m_showOnlineNames;   // The player's show online names setting, 0 = off, 1 = on
++    uint16    m_techLevel;         // F1 World tech level
+     uint8     m_readyStatus;       // 0 = not ready, 1 = ready, 2 = spectating
+ };

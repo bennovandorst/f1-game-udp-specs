@@ -1,0 +1,11 @@
+diff --git a/2023/PacketCarSetupData.h b/2024/PacketCarSetupData.h
+index 9002e1e..dea7bde 100755
+--- a/2023/PacketCarSetupData.h
++++ b/2024/PacketCarSetupData.h
+@@ -3,4 +3,6 @@ struct PacketCarSetupData
+     PacketHeader    m_header;            // Header
+ 
+     CarSetupData    m_carSetups[22];
++
++    float         m_nextFrontWingValue;	// Value of front wing after next pit stop - player only
+ };

@@ -1,0 +1,15 @@
+diff --git a/2023/PacketMotionExData.h b/2024/PacketMotionExData.h
+index 347c6d8..6ced254 100755
+--- a/2023/PacketMotionExData.h
++++ b/2024/PacketMotionExData.h
+@@ -23,4 +23,10 @@ struct PacketMotionExData
+     float         m_angularAccelerationZ;        // Angular acceleration z-component
+     float         m_frontWheelsAngle;            // Current front wheels angle in radians
+     float         m_wheelVertForce[4];           // Vertical forces for each wheel
++    float         m_frontAeroHeight;             // Front plank edge height above road surface
++    float         m_rearAeroHeight;              // Rear plank edge height above road surface
++    float         m_frontRollAngle;              // Roll angle of the front suspension
++    float         m_rearRollAngle;               // Roll angle of the rear suspension
++    float         m_chassisYaw;                  // Yaw angle of the chassis relative to the direction
++// of motion - radians
+ };

@@ -1,0 +1,32 @@
+diff --git a/2023/EventDataDetails.h b/2024/EventDataDetails.h
+index d4acc8e..c73cef2 100755
+--- a/2023/EventDataDetails.h
++++ b/2024/EventDataDetails.h
+@@ -69,7 +69,7 @@ union EventDataDetails
+ 
+     struct
+     {
+-        uint32         m_buttonStatus;    // Bit flags specifying which buttons are being pressed
++        uint32 buttonStatus;              // Bit flags specifying which buttons are being pressed
+                                           // currently - see appendices
+     } Buttons;
+ 
+@@ -78,4 +78,18 @@ union EventDataDetails
+         uint8 overtakingVehicleIdx;       // Vehicle index of the vehicle overtaking
+         uint8 beingOvertakenVehicleIdx;   // Vehicle index of the vehicle being overtaken
+     } Overtake;
++
++    struct
++    {
++        uint8 safetyCarType;              // 0 = No Safety Car, 1 = Full Safety Car
++                                          // 2 = Virtual Safety Car, 3 = Formation Lap Safety Car
++        uint8 eventType;                  // 0 = Deployed, 1 = Returning, 2 = Returned
++                                          // 3 = Resume Race
++    } SafetyCar;
++
++    struct
++    {
++        uint8 vehicle1Idx;            // Vehicle index of the first vehicle involved in the collision
++        uint8 vehicle2Idx;            // Vehicle index of the second vehicle involved in the collision
++    } Collision;
+ };

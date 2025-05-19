@@ -1,0 +1,11 @@
+diff --git a/2023/ParticipantData.h b/2024/ParticipantData.h
+index cb94280..c1586ae 100755
+--- a/2023/ParticipantData.h
++++ b/2024/ParticipantData.h
+@@ -11,5 +11,6 @@ struct ParticipantData
+ 				   // Will be truncated with … (U+2026) if too long
+     uint8      m_yourTelemetry;     // The player's UDP setting, 0 = restricted, 1 = public
+     uint8      m_showOnlineNames;   // The player's show online names setting, 0 = off, 1 = on
++    uint16     m_techLevel;         // F1 World tech level
+     uint8      m_platform;          // 1 = Steam, 3 = PlayStation, 4 = Xbox, 6 = Origin, 255 = unknown
+ };
