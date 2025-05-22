@@ -1,0 +1,16 @@
+diff --git a/empty.h b/2025/PacketLapPositionsData.h
+old mode 100755
+new mode 100644
+index e69de29..1e8d8aa
+--- a/empty.h
++++ b/2025/PacketLapPositionsData.h
+@@ -0,0 +1,9 @@
++struct PacketLapPositionsData
++{
++ PacketHeader m_header; // Header
++ // Packet specific data
++ uint8 m_numLaps; // Number of laps in the data
++ uint8 m_lapStart; // Index of the lap where the data starts, 0 indexed
++ // Array holding the position of the car in a given lap, 0 if no record
++ uint8 m_positionForVehicleIdx[50][cs_maxNumCarsInUDPData];
++};

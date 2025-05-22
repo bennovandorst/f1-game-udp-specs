@@ -1,0 +1,17 @@
+diff --git a/2024/TimeTrialDataSet.h b/2025/TimeTrialDataSet.h
+index ccee2a9..bbf507f 100644
+--- a/2024/TimeTrialDataSet.h
++++ b/2025/TimeTrialDataSet.h
+@@ -6,9 +6,9 @@ struct TimeTrialDataSet
+  uint32 m_sector1TimeInMS; // Sector 1 time in milliseconds
+  uint32 m_sector2TimeInMS; // Sector 2 time in milliseconds
+  uint32 m_sector3TimeInMS; // Sector 3 time in milliseconds
+-    uint8     m_tractionControl;          // 0 = off, 1 = medium, 2 = full
+-    uint8     m_gearboxAssist;            // 1 = manual, 2 = manual & suggested gear, 3 = auto
+-    uint8     m_antiLockBrakes;           // 0 (off) - 1 (on)
++ uint8 m_tractionControl; // 0 = assist off, 1 = assist on
++ uint8 m_gearboxAssist; // 0 = assist off, 1 = assist on
++ uint8 m_antiLockBrakes; // 0 = assist off, 1 = assist on
+  uint8 m_equalCarPerformance; // 0 = Realistic, 1 = Equal
+  uint8 m_customSetup; // 0 = No, 1 = Yes
+  uint8 m_valid; // 0 = invalid, 1 = valid

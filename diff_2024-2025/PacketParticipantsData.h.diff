@@ -1,0 +1,14 @@
+diff --git a/2024/PacketParticipantsData.h b/2025/PacketParticipantsData.h
+old mode 100755
+new mode 100644
+index 33377a5..3b16cae
+--- a/2024/PacketParticipantsData.h
++++ b/2025/PacketParticipantsData.h
+@@ -1,7 +1,6 @@
+ struct PacketParticipantsData
+ {
+  PacketHeader m_header; // Header
+-
+  uint8 m_numActiveCars; // Number of active cars in the data – should match number of
+  // cars on HUD
+  ParticipantData m_participants[22];

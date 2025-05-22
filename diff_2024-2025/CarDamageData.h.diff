@@ -1,0 +1,14 @@
+diff --git a/2024/CarDamageData.h b/2025/CarDamageData.h
+old mode 100755
+new mode 100644
+index d5c08c1..f935a6e
+--- a/2024/CarDamageData.h
++++ b/2025/CarDamageData.h
+@@ -3,6 +3,7 @@ struct CarDamageData
+  float m_tyresWear[4]; // Tyre wear (percentage)
+  uint8 m_tyresDamage[4]; // Tyre damage (percentage)
+  uint8 m_brakesDamage[4]; // Brakes damage (percentage)
++ uint8 m_tyreBlisters[4]; // Tyre blisters value (percentage)
+  uint8 m_frontLeftWingDamage; // Front left wing damage (percentage)
+  uint8 m_frontRightWingDamage; // Front right wing damage (percentage)
+  uint8 m_rearWingDamage; // Rear wing damage (percentage)

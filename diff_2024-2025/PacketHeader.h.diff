@@ -1,0 +1,14 @@
+diff --git a/2024/PacketHeader.h b/2025/PacketHeader.h
+index 3dc325c..17aa5c1 100644
+--- a/2024/PacketHeader.h
++++ b/2025/PacketHeader.h
+@@ -1,7 +1,7 @@
+ struct PacketHeader
+ {
+-    uint16    m_packetFormat;            // 2024
+-    uint8     m_gameYear;                // Game year - last two digits e.g. 24
++ uint16 m_packetFormat; // 2025
++ uint8 m_gameYear; // Game year - last two digits e.g. 25
+  uint8 m_gameMajorVersion; // Game major version - "X.00"
+  uint8 m_gameMinorVersion; // Game minor version - "1.XX"
+  uint8 m_packetVersion; // Version of this packet type, all start from 1

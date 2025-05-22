@@ -1,0 +1,14 @@
+diff --git a/2024/PacketFinalClassificationData.h b/2025/PacketFinalClassificationData.h
+old mode 100755
+new mode 100644
+index 8dead48..69f41fc
+--- a/2024/PacketFinalClassificationData.h
++++ b/2025/PacketFinalClassificationData.h
+@@ -1,7 +1,6 @@
+ struct PacketFinalClassificationData
+ {
+  PacketHeader m_header; // Header
+-
+  uint8 m_numCars; // Number of cars in the final classification
+  FinalClassificationData m_classificationData[22];
+ };

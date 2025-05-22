@@ -1,0 +1,13 @@
+diff --git a/2024/PacketCarDamageData.h b/2025/PacketCarDamageData.h
+old mode 100755
+new mode 100644
+index 0b3aad7..19c4237
+--- a/2024/PacketCarDamageData.h
++++ b/2025/PacketCarDamageData.h
+@@ -1,6 +1,5 @@
+ struct PacketCarDamageData
+ {
+  PacketHeader m_header; // Header
+-
+  CarDamageData m_carDamageData[22];
+ };

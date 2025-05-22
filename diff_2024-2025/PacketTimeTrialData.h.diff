@@ -1,0 +1,12 @@
+diff --git a/2024/PacketTimeTrialData.h b/2025/PacketTimeTrialData.h
+index bf9dfcd..b15122a 100644
+--- a/2024/PacketTimeTrialData.h
++++ b/2025/PacketTimeTrialData.h
+@@ -1,7 +1,6 @@
+ struct PacketTimeTrialData
+ {
+  PacketHeader m_header; // Header
+-
+  TimeTrialDataSet m_playerSessionBestDataSet; // Player session best data set
+  TimeTrialDataSet m_personalBestDataSet; // Personal best data set
+  TimeTrialDataSet m_rivalDataSet; // Rival data set

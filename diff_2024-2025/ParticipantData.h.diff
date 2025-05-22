@@ -1,0 +1,20 @@
+diff --git a/2024/ParticipantData.h b/2025/ParticipantData.h
+old mode 100755
+new mode 100644
+index c1586ae..e34483e
+--- a/2024/ParticipantData.h
++++ b/2025/ParticipantData.h
+@@ -7,10 +7,12 @@ struct ParticipantData
+  uint8 m_myTeam; // My team flag – 1 = My Team, 0 = otherwise
+  uint8 m_raceNumber; // Race number of the car
+  uint8 m_nationality; // Nationality of the driver
+-    char       m_name[48];          // Name of participant in UTF-8 format – null terminated
++ char m_name[32]; // Name of participant in UTF-8 format – null terminated
+  // Will be truncated with … (U+2026) if too long
+  uint8 m_yourTelemetry; // The player's UDP setting, 0 = restricted, 1 = public
+  uint8 m_showOnlineNames; // The player's show online names setting, 0 = off, 1 = on
+  uint16 m_techLevel; // F1 World tech level
+  uint8 m_platform; // 1 = Steam, 3 = PlayStation, 4 = Xbox, 6 = Origin, 255 = unknown
++ uint8 m_numColours; // Number of colours valid for this car
++ LiveryColour m_liveryColours[4]; // Colours for the car
+  };

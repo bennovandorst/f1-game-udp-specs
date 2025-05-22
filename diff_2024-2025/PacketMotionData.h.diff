@@ -1,0 +1,13 @@
+diff --git a/2024/PacketMotionData.h b/2025/PacketMotionData.h
+old mode 100755
+new mode 100644
+index 95fe6f3..48f197f
+--- a/2024/PacketMotionData.h
++++ b/2025/PacketMotionData.h
+@@ -1,6 +1,5 @@
+ struct PacketMotionData
+ {
+  PacketHeader m_header; // Header
+-
+  CarMotionData m_carMotionData[22]; // Data for all cars on track
+ };

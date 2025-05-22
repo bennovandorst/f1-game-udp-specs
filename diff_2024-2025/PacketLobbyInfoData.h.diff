@@ -1,0 +1,14 @@
+diff --git a/2024/PacketLobbyInfoData.h b/2025/PacketLobbyInfoData.h
+old mode 100755
+new mode 100644
+index 51dc439..461f62a
+--- a/2024/PacketLobbyInfoData.h
++++ b/2025/PacketLobbyInfoData.h
+@@ -1,7 +1,6 @@
+ struct PacketLobbyInfoData
+ {
+  PacketHeader m_header; // Header
+-
+  // Packet specific data
+  uint8 m_numPlayers; // Number of players in the lobby data
+  LobbyInfoData m_lobbyPlayers[22];

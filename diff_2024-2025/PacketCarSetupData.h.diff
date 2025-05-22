@@ -1,0 +1,15 @@
+diff --git a/2024/PacketCarSetupData.h b/2025/PacketCarSetupData.h
+old mode 100755
+new mode 100644
+index dea7bde..1db64c6
+--- a/2024/PacketCarSetupData.h
++++ b/2025/PacketCarSetupData.h
+@@ -1,8 +1,6 @@
+ struct PacketCarSetupData
+ {
+  PacketHeader m_header; // Header
+-
+  CarSetupData m_carSetups[22];
+-
+  float m_nextFrontWingValue; // Value of front wing after next pit stop - player only
+ };

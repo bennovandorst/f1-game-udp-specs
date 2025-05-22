@@ -1,0 +1,12 @@
+diff --git a/empty.h b/2025/PackketCarStatusData.h
+old mode 100755
+new mode 100644
+index e69de29..a95164f
+--- a/empty.h
++++ b/2025/PackketCarStatusData.h
+@@ -0,0 +1,5 @@
++struct PacketCarStatusData
++{
++ PacketHeader m_header; // Header
++ CarStatusData m_carStatusData[22];
++};

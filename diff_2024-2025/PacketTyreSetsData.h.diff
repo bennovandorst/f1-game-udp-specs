@@ -1,0 +1,17 @@
+diff --git a/2024/PacketTyreSetsData.h b/2025/PacketTyreSetsData.h
+old mode 100755
+new mode 100644
+index bdfb4e5..c8a1712
+--- a/2024/PacketTyreSetsData.h
++++ b/2025/PacketTyreSetsData.h
+@@ -1,10 +1,7 @@
+ struct PacketTyreSetsData
+ {
+  PacketHeader m_header; // Header
+-
+  uint8 m_carIdx; // Index of the car this data relates to
+-
+  TyreSetData m_tyreSetData[20]; // 13 (dry) + 7 (wet)
+-
+  uint8 m_fittedIdx; // Index into array of fitted tyre
+ };

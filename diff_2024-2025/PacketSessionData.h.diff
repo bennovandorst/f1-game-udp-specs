@@ -1,0 +1,14 @@
+diff --git a/2024/PacketSessionData.h b/2025/PacketSessionData.h
+old mode 100755
+new mode 100644
+index 7f4cdf2..21f2aea
+--- a/2024/PacketSessionData.h
++++ b/2025/PacketSessionData.h
+@@ -1,7 +1,6 @@
+ struct PacketSessionData
+ {
+  PacketHeader m_header; // Header
+-
+  uint8 m_weather; // Weather - 0 = clear, 1 = light cloud, 2 = overcast
+  // 3 = light rain, 4 = heavy rain, 5 = storm
+  int8 m_trackTemperature; // Track temp. in degrees celsius

@@ -1,0 +1,24 @@
+diff --git a/2024/PacketMotionExData.h b/2025/PacketMotionExData.h
+old mode 100755
+new mode 100644
+index 6ced254..df82a84
+--- a/2024/PacketMotionExData.h
++++ b/2025/PacketMotionExData.h
+@@ -1,7 +1,6 @@
+ struct PacketMotionExData
+ {
+  PacketHeader m_header; // Header
+-
+  // Extra player car ONLY data
+  float m_suspensionPosition[4]; // Note: All wheel arrays have the following order:
+  float m_suspensionVelocity[4]; // RL, RR, FL, FR
+@@ -29,4 +28,9 @@ struct PacketMotionExData
+  float m_rearRollAngle; // Roll angle of the rear suspension
+  float m_chassisYaw; // Yaw angle of the chassis relative to the direction
+ // of motion - radians
++ float m_chassisPitch; // Pitch angle of the chassis relative to the
++// direction of motion – radians
++ float m_wheelCamber[4]; // Camber of each wheel in radians
++ float m_wheelCamberGain[4]; // Camber gain for each wheel in radians, difference
++ // between active camber and dynamic camber
+ };

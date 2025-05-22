@@ -1,0 +1,14 @@
+diff --git a/empty.h b/2025/LiveryColour.h
+old mode 100755
+new mode 100644
+index e69de29..e853a0d
+--- a/empty.h
++++ b/2025/LiveryColour.h
+@@ -0,0 +1,7 @@
++// RGB value of a colour
++struct LiveryColour
++{
++ uint8 red;
++ uint8 green;
++ uint8 blue;
++};

@@ -1,0 +1,16 @@
+diff --git a/2024/PacketCarTelemetryData.h b/2025/PacketCarTelemetryData.h
+old mode 100755
+new mode 100644
+index 7677f50..fcddc39
+--- a/2024/PacketCarTelemetryData.h
++++ b/2025/PacketCarTelemetryData.h
+@@ -1,9 +1,7 @@
+ struct PacketCarTelemetryData
+ {
+  PacketHeader m_header; // Header
+-
+  CarTelemetryData m_carTelemetryData[22];
+-
+  uint8 m_mfdPanelIndex; // Index of MFD panel open - 255 = MFD closed
+  // Single player, race – 0 = Car setup, 1 = Pits
+  // 2 = Damage, 3 = Engine, 4 = Temperatures

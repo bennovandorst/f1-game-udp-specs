@@ -1,0 +1,13 @@
+diff --git a/2024/WeatherForecastSample.h b/2025/WeatherForecastSample.h
+old mode 100755
+new mode 100644
+index c449d1c..23b000d
+--- a/2024/WeatherForecastSample.h
++++ b/2025/WeatherForecastSample.h
+@@ -8,5 +8,5 @@ struct WeatherForecastSample
+  int8 m_trackTemperatureChange; // Track temp. change – 0 = up, 1 = down, 2 = no change
+  int8 m_airTemperature; // Air temp. in degrees celsius
+  int8 m_airTemperatureChange; // Air temp. change – 0 = up, 1 = down, 2 = no change
+-    uint8     m_rainPercentage;           // Rain percentage (0-100)
++ uint8 m_rainPercentage; // Percentage chance of rain (0-100)
+ };
